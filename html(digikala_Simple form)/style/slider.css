@@ -1,0 +1,63 @@
+
+#slider{
+	overflow:hidden;
+	
+	position:relative;
+
+	border:1px solid #ccc;
+	//width:600px;
+	height:100%;
+	
+	//margin:100px auto;
+	border-radius:3px;
+	
+	box-shadow:0 0 15px 1px #ddd;
+}
+
+#slider > #gal{
+	transition:0.5s;
+	
+	position:relative;
+	left:0px;
+	
+	//border:1px solid #ccc;
+	width:500%;
+	height:100%;
+}
+
+#slider > #gal > .items{
+	width:20%;
+	height:100%;
+	float:left;
+}
+#slider > #gal > .items > img{
+	width:100%;
+	height:100%;
+}
+
+
+#slider > #rar{	
+	cursor:pointer;
+	position:absolute;
+	top:90px;
+	right:0;
+
+	width:70px;
+	height:90px;
+	background:url("../img/slider/right.png") no-repeat 50% 50%;
+	background-size:50%;
+	
+}
+
+#slider > #lar{
+	cursor:pointer;
+	position:absolute;
+	top:90px;
+	left:0;
+		
+	width:70px;
+	height:90px;
+	background:url("../img/slider/left.png") no-repeat 50% 50%;
+	background-size:50%;
+	
+	}

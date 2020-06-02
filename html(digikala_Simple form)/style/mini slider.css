@@ -1,0 +1,104 @@
+
+.mini_slider{
+	overflow:hidden;
+	
+	position:relative;
+
+	//width:600px;
+	height:250px;
+	
+	//margin:100px auto;
+	border-radius:3px;
+	
+	box-shadow:0 0 15px 1px #ddd;
+}
+
+.mini_slider > .gal{
+	transition:0.5s;
+	
+	position:relative;
+	left:0px;
+	
+	//border:1px solid #ccc;
+	
+	width:500%;
+	height:100%;
+}
+
+@font-face{
+	src:url("../fonts/Mj flow.ttf");
+	font-family : mj;
+}
+
+@font-face{
+	src:url("../fonts/Yekan.ttf");
+	font-family : yek;
+}
+
+@font-face{
+	src:url("../fonts/Mitra.ttf");
+	font-family : mitra;
+}
+
+.mini_slider > .header{
+	background:rgba(240,240,240,1);
+	height:30px;
+	direction:rtl;
+	font-family:mj;
+	color:#777;
+	text-indent:20px;
+}
+
+.mini_slider > .gal > .items{
+	margin-top:15px;
+	width:150px;
+	height:100%;
+	float:left;
+	text-align:center;
+	direction:rtl;
+}
+.mini_slider > .gal > .items > img{
+	width:65%;
+	height:auto;
+}
+.mini_slider > .gal > .items > h2{
+	border-bottom:12px solid #ddd;
+	padding:0 3px 7px 3px;
+	font-family:tahoma;
+	margin:10px 5px;
+	font-size:17px;
+	font-weight:500;
+	color:#555;
+}
+.mini_slider > .gal > .items > span{
+	color:green;font-family:mitra;
+	font-size:18px;
+}
+
+
+.mini_slider > .rar{	
+	cursor:pointer;
+	position:absolute;
+	top:50px;
+	right:0;
+
+	width:40px;
+	height:180px;
+	background:url("../img/slider1/right.png") rgba(255,255,255,0.8) no-repeat 50% 50%;
+	background-size:60%;
+	
+}
+
+.mini_slider > .lar{
+	cursor:pointer;
+	position:absolute;
+	top:50px;
+	left:0;
+		
+	width:40px;
+	height:180px;
+	background:url("../img/slider1/left.png") rgba(255,255,255,0.8) no-repeat 50% 50%;
+	background-size:60%;
+	border-right:1px solid #ccc;
+	}
+

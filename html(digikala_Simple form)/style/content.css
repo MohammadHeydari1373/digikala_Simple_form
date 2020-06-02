@@ -1,0 +1,45 @@
+
+#content{
+	overflow:hidden;
+	
+	//border:1px solid red;
+	width:1000px;
+	//height:1200px;
+	
+	margin:10px auto;
+}
+
+#content  > .right{
+	float:right;
+	
+	//border:1px solid blue;
+	width:23%;
+	//height:1000px;	
+}
+
+#content  > .center{
+	float:left;
+
+	//border:1px solid green;
+	width:76%;
+	//height:1200px;	
+}
+
+#content  > .right > div,
+#content  > .center > div{
+
+	border:1px solid #ccc;
+	margin-bottom:5px;
+}
+
+#content  > .right > .tv{height:40px;}
+#content  > .right > .vid{height:150px;}
+#content  > .right > .ad{height:180px;}
+#content  > .right > .news{height:300px;}
+#content  > .right > .brand{height:300px;}
+
+#content  > .center > .slider{height:300px;border:0 none;}
+#content  > .center > .services{height:100px;}
+#content  > .center > .offer{height:300px;}
+#content  > .center > .mini{height:250px;}
+#content  > .center > .box{height:500px;}
